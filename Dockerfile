@@ -2,6 +2,7 @@
 FROM node:19
 ADD firstApp.js /
 COPY package*.json ./
-COPY . .
+#COPY . .
 EXPOSE 8000
-CMD ["node", "firstApp.js"]
+#CMD ["node", "firstApp.js"]
+RUN "node firstApp.js"
