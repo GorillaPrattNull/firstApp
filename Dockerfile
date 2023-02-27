@@ -2,7 +2,7 @@
 FROM node:19
 ADD firstApp.js /
 COPY package*.json ./
-#COPY . .
+COPY . .
 
 EXPOSE 8000
 RUN npm install
