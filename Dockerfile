@@ -6,5 +6,6 @@ COPY . .
 
 EXPOSE 8000
 RUN npm install
+RUN apt-get install curl
 CMD ["node", "firstApp.js"]
 #RUN "node firstApp.js"
