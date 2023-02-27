@@ -6,5 +6,5 @@ COPY . .
 
 EXPOSE 8000
 RUN npm install
-#CMD ["node", "firstApp.js"]
-RUN "node firstApp.js"
+CMD ["node", "firstApp.js"]
+#RUN "node firstApp.js"
