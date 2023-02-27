@@ -2,7 +2,7 @@
   "name": "firstAppp",
   "version": "1.0.0",
   "description": "Node.js on Docker",
-  "author": "alikyi>",
+  "author": "alikyi",
   "main": "firstApp.js",
   "scripts": {
     "start": "firstApp.js"
